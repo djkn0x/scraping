@@ -31,34 +31,39 @@ with open("data/providers.csv", "w") as f:
 	output.writerow(fieldnames)
 
 	for url in provider_urls:
-		soup = BeautifulSoup(urlopen(url).read())
+		try:
+			soup = BeautifulSoup(urlopen(url).read())
 
-		# === Get provider name === #
-		name_html = soup.h1.encode('utf-8')
-		name = stripHtmlTags(name_html)
-		print "Getting data for %s \n" % name
+			# === Get provider name === #
+			name_html = soup.h1.encode('utf-8')
+			name = stripHtmlTags(name_html)
+			print "Getting data for %s \n" % name
+			
+			# === Get provider summary === #
+			summary = soup.find_all(id="provider_description")
+
+			# === Get provider location === #
+			location_caption = soup.find(text="Headquarters")
+			location_html = location_caption.find_next("td").encode('utf-8')
+			location = stripHtmlTags(location_html)
+
+			# === Get provider service areas === #
+			service_areas_caption = soup.find(text="Service Areas")
+			service_areas_html = service_areas_caption.find_next("td").encode('utf-8')
+			service_areas = stripHtmlTags(service_areas_html)
+
+			# === Get provider URL === #
+			homepage_url_html = soup.find("a", class_="trackable", href=True).encode('utf-8')
+			homepage_url = stripHtmlTags(homepage_url_html)
+			
+			# == Get provider services == #
+			service_urls = [h3.a['href'] for h3 in soup.find_all('h3')]
+
+			output.writerow([name, summary, location, service_areas, homepage_url, service_urls])
 		
-		# === Get provider summary === #
-		summary = soup.find_all(id="provider_description")
-
-		# === Get provider location === #
-		location_caption = soup.find(text="Headquarters")
-		location_html = location_caption.find_next("td").encode('utf-8')
-		location = stripHtmlTags(location_html)
-
-		# === Get provider service areas === #
-		service_areas_caption = soup.find(text="Service Areas")
-		service_areas_html = service_areas_caption.find_next("td").encode('utf-8')
-		service_areas = stripHtmlTags(service_areas_html)
-
-		# === Get provider URL === #
-		homepage_url_html = soup.find("a", class_="trackable", href=True).encode('utf-8')
-		homepage_url = stripHtmlTags(homepage_url_html)
+		except:
+			pass
 		
-		# == Get provider services == #
-		service_urls = [h3.a['href'] for h3 in soup.find_all('h3')]
-
-		output.writerow([name, summary, location, service_areas, homepage_url, service_urls])
 		sleep(1)
 
 print "Done writing file"

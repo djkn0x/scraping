@@ -1,43 +1,16 @@
 name,summary,location,service_areas,homepage_url,service_urls
-Synthetech,"[<div id=""provider_description"">
-<h2>Looking for Synthetech?</h2>
-<p><img alt=""Assay Depot Info"" src=""https://backoffice.assaydepot.com/files/depot-wares/ae82d9d2c9dd4902be154a3202646689/logo_info.png"" style=""float:left; margin-right: 10px;"" title=""Assay Depot Info""/></p>
-<p style=""text-align:justify;"">Assay Depot’s industry intelligence indicates that Synthetech has been bought by or merged with <a href=""/providers/grace"">Grace</a>. <br/>
-If you feel this information is incorrect or have information to the contrary, please contact us: <a href=""mailto:info@assaydepot.com"">info@assaydepot.com</a>.</p>
-</div>]","Albany, OR, USA","Chemistry, Manufacturing",http://www.synthetech.com/,[]
-Centro Nacional de Invest. Cardio.,"[<div id=""provider_description"">
-<p>Centro Nacional de Invest. Cardio. provides cytometry, proteomics, transgenesis, viral vectors, microscopy, and gene targeting.</p>
-</div>]","Madrid, Spain",Biology,http://www.cnic.es/,[]
-SeSaM-Biotech,"[<div id=""provider_description"">
-<p>SeSaM-Biotech offers mutant gene libraries, protein engineering services and R&amp;D of enzymes or assays in the field of directed evolution.</p>
-</div>]","Bremen, Germany",Biology,http://www.sesam-biotech.com,"['/service/dna-library-creation', '/service/dna-subcloning0', '/service/dna-services', '/service/dna-library-screening', '/service/dna-mutagenesis']"
-Constella Group,"[<div id=""provider_description"">
-<p>Constella Group offers clinical research, bioinformatics, pharmacokinetic modeling, strategic consulting, and clinical trials.</p>
-</div>]","Durham, NC, USA",Pharmacology,http://www.constellagroup.com/,[]
-Research Diets,"[<div id=""provider_description"">
-<p>Research Diets offers custom purified-ingredient diets for lab animals and diet induced disease models.</p>
-</div>]","New Brunswick, NJ",Pharmacology,http://www.researchdiets.com/,[]
-Cell Culture Service,"[<div id=""provider_description"">
-<a href=""http://www.CellCultureService.com""><img alt=""Logo"" class=""inline"" src=""/providers/cell-culture-service/logo""/></a>
-<p><strong>CCS Cell Culture Service</strong>, now part of <strong><a href=""/providers/evotec"">Evotec</a></strong>, works as an external cell culture unit for major pharmaceutical and biotech companies.  Since 2004, CCS has been a pioneer in frozen cell technology, and delivers high quality services utilizing over 13 years of experience and the latest technologies. All services come with functional validation in an appropriate assay (<em>when available_), weekly project updates, and free shipping (_with projects over $2,000</em>). As an added convenience for your cellular needs, there is NO trans-Atlantic shipment or customs documentation necessary for our North American customers as all shipments are sent through our New Jersey office.</p>
-<p>CCS not only provides the main listed custom services (stable recombinat cell line generation, bulk assay ready frozen cells, proteins, and membranes) but also:</p>
-<ul>
-<li>Emergency Offsite Storage</li>
-<li>Centralized Cell Banking/Distribution for all your facility locations</li>
-<li>Large bulk transient transfections (Maxcyte STX)</li>
-<li>Product Testing/Optimization</li>
-<li>Completely Custom Projects utilizing our capabilities, experience, and knowledge</li>
-</ul>
-</div>]","Hamburg, Germnay",Biology,http://www.CellCultureService.com,"['/service/frozen-instant-cells', '/service/bulk-membrane-preparations', '/service/recombinant-cell-line-construction', '/service/cell-culture', '/service/cell-line-construction', '/service/cell-services']"
-Mediprobe Research,"[<div id=""provider_description"">
-<p>Mediprobe provides study design, case report forms, clinical trials, pharmacokinetic trials and ships plasma samples.</p>
-</div>]","Ontario, Canada","Clinical, DMPK",http://www.mediproberesearch.com/,[]
-YO Proteins,"[<div id=""provider_description"">
-<p>YO Proteins is a supplier of high quality bioreagents for research purposes: proteins, antibodies and resins for affinity chromatography.</p>
-</div>]","Huddinge, Sweden",Biology,http://www.yoproteins.com/,[]
-TriStar Technology Group,"[<div id=""provider_description"">
-<p>TriStar Technology Group offers tissue analysis and microarray services.</p>
-</div>]","Rockville, MD, USA",Toxicology,http://www.tristargroup.us,"['/service/tissue-cross-reactivity', '/service/bone-metastases', '/service/immunotoxicity', '/service/mammalian-toxicology']"
-Hanson Institute Detmold Family Trust Cell Imaging Centre,"[<div id=""provider_description"">
-<p>Hanson Institute Detmold Family Trust Cell Imaging Centre provides flow cytometry and imaging services.</p>
-</div>]","Adelaide, South Australia",Biology,http://www.hansoninstitute.sa.gov.au,[]
+I.Q.A,"[<div id=""provider_description"">
+<p>I.Q.A provides pharmaceutical product development, screening, oncological clinical studies, stability tests, and validation methods.</p>
+</div>]","Praha, Czech Republic",Biology,http://www.iqa.cz,[]
+VenturePharm Service CRO Group,"[<div id=""provider_description"">
+<p>VenturePharm Service CRO Group offers detection, analysis, clinical, pharmacokinetic, and toxicology services.</p>
+</div>]","Beijing, China","Pharmacology, Toxicology",http://www.vpscro.com,[]
+Panomics,"[<div id=""provider_description"">
+<p>Panomics, now part of Affymetrix, offers services for gene expression analysis, copy number variation analysis, in situ gene expression, cytokine profile assessment, cell line construction and gene cloning.</p>
+</div>]","Fremont, CA, USA",Biology,http://www.panomics.com,[]
+Bionomics Research and Technology Center (BRTC),"[<div id=""provider_description"">
+<p>Bionomics Research and Technology Center (BRTC) offers gene expression, chemical analysis, and cell and DNA sample repository services.</p>
+</div>]","Piscataway, NJ, USA","Biology, Chemistry",http://www.eohsi-brtc.com,[]
+United-Power Pharma Tech,"[<div id=""provider_description"">
+<p>United-Power Pharma Tech offers pharmacokinetics, pharmacodynamics, protein/peptide structure analysis, radioisotope labeling/detection, drug screening, and toxicity services.</p>
+</div>]","Beijing, China","DMPK, Pharmacology, Toxicology",http://www.up-pharma.com/,[]
